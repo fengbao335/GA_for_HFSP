@@ -13,7 +13,7 @@ def Generate(State,Job,Machine):
     return PT
 
 Job=20
-State=5
-Machine=[3,3,2,3,3]
+State=2
+Machine=[3,2]
 
 PT=Generate(State,Job,Machine)
